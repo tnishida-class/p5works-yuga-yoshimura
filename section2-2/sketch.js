@@ -20,3 +20,18 @@ function setup() {
     line(x, 0, x, 100);
   }
 }
+
+function setup() {
+  createCanvas(300,300);
+  background(196);
+  for(let i = 0; i < 9; i++){
+    if(i % 2 == 0){
+      strokeWeight(5);
+    }
+    else{
+      strokeWeight(3);
+    }
+    let x = i * 10 + 10;
+    line(x, 0, x, 300);
+  }
+}
