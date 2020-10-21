@@ -8,7 +8,7 @@ function setup(){
     stroke(0, 0, 255);
     }
   else(5 < i <= 10){
-    stroke(255, 0, 0)
+    stroke(255, 0, 0);
     }
   }
 }
