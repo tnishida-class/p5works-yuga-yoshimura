@@ -24,7 +24,7 @@ function setup() {
 function setup() {
   createCanvas(300,300);
   background(196);
-  for(let i = 0; i < 9; i++){
+  for(let i = 0; i < 18; i++){
     if(i % 2 == 0){
       strokeWeight(5);
     }
