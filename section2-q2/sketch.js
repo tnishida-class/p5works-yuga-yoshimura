@@ -12,8 +12,8 @@ function setup() {
         fill(120);
       }
       if(0 <= j < 3 && background == 120){
+        fill(255, 0, 0)
         ellipse(size / 2, size / 2, 20)
-        fill('red')
       }
       else{}
 
