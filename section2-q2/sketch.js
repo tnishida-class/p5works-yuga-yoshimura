@@ -14,7 +14,7 @@ function setup() {
       else{}
       rect(0, 25, 25, 25)
 
-      if(background != 196, 0 <= j <= 2){
+      if(j <=2, background != 196){
         ellipse((i - 0.5) * 25, (j - 0.5) * 25, 20)
       }
       else{
