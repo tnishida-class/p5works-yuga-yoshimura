@@ -11,9 +11,9 @@ function setup() {
         rect(size*i, size*j, size, size);
         fill(120);
       }
-      if(0 <= j < 3 && i % 2 == 0){
+      if(j == 0 || j == 2 && i % 2 ==1){
         fill(255, 0, 0)
-        ellipse(size / 2, size / 2, 20)
+        ellipse(size * (i - 0.5), size * (j - 0.5), size/2)
       }
       else{}
 
