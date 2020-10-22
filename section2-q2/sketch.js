@@ -14,8 +14,8 @@ function setup() {
       else{}
       rect(0, 25, 25, 25)
 
-
-      ellipse((i - 0.5) * 25, (j - 0.5) * 25, 20, color(255, 0, 0));
+      stroke(255, 0, 0)
+      ellipse((i - 0.5) * 25, (j - 0.5) * 25, 20);
 
 
   }
