@@ -1,6 +1,6 @@
 // 小手調べ
 function setup(){
-  nofill();
+  noFill();
   for(let i = 0; i < 10; i++){
     // BLANK[1]
     ellipse(50, 50, i++);
