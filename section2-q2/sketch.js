@@ -14,11 +14,11 @@ function setup() {
       else{}
       rect(0, 25, 25, 25)
 
-      if(background == 196, j > 3){
-      }
-      else{
+      if(background != 196, j <= 2){
         ellipse((i - 0.5) * 25, (j - 0.5) * 25, 20);
         fill(255, 0, 0)
+      }
+      else{
       }
   }
 }
