@@ -11,7 +11,7 @@ function setup() {
         rect(i * 25, j * 25, 25, 25);
         fill(120);
       if(j < 3){
-        stroke(255, 0, 0);
+        fill(255, 0, 0);
         ellipse((i + 0.5) * 25, (j + 0.5) * 25, 20);
       }
       else{}
