@@ -13,6 +13,15 @@ function setup() {
       }
       else{}
       rect(0, 25, 25, 25)
+
+      if(background == 196){
+      }
+      else if(j >= 3){
+      }
+      else{
+        ellipse((i - 0.5) * 25, (j - 0.5) * 25, 12.5);
+        fill(255, 0, 0)
+      }
   }
 }
 }
