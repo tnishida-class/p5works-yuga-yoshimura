@@ -10,7 +10,9 @@ function setup() {
         rect(i * 20, j * 20 ,25 ,25);
       fill(120)
       }
-      else{}
+      else{
+        ellipse(i + 10, j + 10, 10)
+      }
   }
 }
 }
