@@ -14,7 +14,7 @@ function setup() {
       else{}
       rect(0, 25, 25, 25)
 
-      if(background != 196){
+      if(background == 196){
       }
       else if(j > 3){
       }
