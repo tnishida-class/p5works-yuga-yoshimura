@@ -15,7 +15,7 @@ function setup() {
       rect(0, 25, 25, 25)
 
       if(background != 196){
-        color(255, 0, 0)
+        fill('red')
         ellipse((i - 0.5) * 25, (j - 0.5) * 25, 20);
       }
         else{
