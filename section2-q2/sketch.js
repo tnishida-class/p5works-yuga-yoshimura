@@ -16,7 +16,7 @@ function setup() {
 
       if(background == 196){
       }
-      else if(j > 3){
+      else if(j > 2){
       }
       else{
         ellipse((i - 0.5) * 25, (j - 0.5) * 25, 25);
