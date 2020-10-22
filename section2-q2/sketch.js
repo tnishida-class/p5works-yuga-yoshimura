@@ -8,7 +8,7 @@ function setup() {
       // BLANK[1] (hint: rectのx座標は size * i, y座標はsize * j)
       let k = i + j
       if(k % 2 == 1){
-        rect(i * 25, j * 25, 25, 25);
+        rect(size*i, size*j, size, size);
         fill(120);
       }
 
