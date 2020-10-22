@@ -3,7 +3,7 @@ function setup(){
   for(let i = 0; i < 10; i++){
     // BLANK[1]
     noFill();
-    ellipse(50, 50, i++);
+    ellipse(50, 50, 5);
     stroke(0, 0, 255);
   }
 }
