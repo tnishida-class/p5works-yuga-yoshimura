@@ -13,9 +13,8 @@ function setup() {
       }
 
       else if(background != 196){
-        point((i + 0.5) * 25, (j + 0.5) * 25)
+        circle((i + 0.5) * 25, (j + 0.5) * 25, 20)
         stroke(255, 0, 0)
-        strokeWeight(10)
       }
       else{}
 
