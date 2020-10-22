@@ -12,6 +12,7 @@ function setup() {
         fill(120)
       }
       else{}
+      rect(0, 25, 25, 25)
   }
 }
 }
