@@ -11,15 +11,16 @@ function setup() {
         rect(size*i, size*j, size, size);
         fill(120);
       }
-
-      else if(background != 196){
-        circle((i + 0.5) * 25, (j + 0.5) * 25, 20)
-        stroke(255, 0, 0)
+      if(0 <= j < 3 && background != 196){
+        ellipse(size / 2, size / 2, 20)
+        fill('red')
       }
       else{}
 
-    }
+
+
 
 
   }
+    }
 }
