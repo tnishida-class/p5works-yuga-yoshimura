@@ -13,7 +13,7 @@ function setup() {
       }
       if(k % 2 == 0 && i != j){
         fill(255, 0, 0)
-        ellipse(size * (i - 0.5), size * (j - 0.5), size/2)
+        ellipse(size * (i - 0.5), size * (j - 0.5), 20)
       }
       else{}
 
