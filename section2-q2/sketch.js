@@ -16,7 +16,7 @@ function setup() {
 
       if(background != 196, j < 3){
         ellipse((i - 0.5) * 25, (j - 0.5) * 25, 25);
-        fill(255, 0, 0)
+        stroke(255, 0, 0)
       }
       else{
       }
