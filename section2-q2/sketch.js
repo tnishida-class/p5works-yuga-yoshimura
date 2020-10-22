@@ -9,7 +9,7 @@ function setup() {
       let k = i + j
       if(k % 2 == 1){
         rect(i * 25, j * 25, 25, 25);
-        
+        fill(120);
       }
       else{}
       rect(0, 25, 25, 25)
