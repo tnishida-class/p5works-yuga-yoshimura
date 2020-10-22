@@ -6,7 +6,8 @@ function setup() {
   for(let i = 0; i < 8; i++){
     for(let j = 0; j < 8; j++){
       // BLANK[1] (hint: rectのx座標は size * i, y座標はsize * j)
-      if(i + j % 2 == 1){
+      let k = i + j
+      if(k % 2 == 1){
         rect(i * 25, j * 25 ,25 ,25);
         fill(120)
       }
