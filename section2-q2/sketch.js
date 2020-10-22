@@ -12,7 +12,7 @@ function setup() {
         fill(120);
       }
       else if(background != 196){
-        ellipse((i + 0.5) * 25, (j + 0.5) * 25, 20)
+        circle((i + 0.5) * 25, (j + 0.5) * 25, 20)
         fill(255, 0, 0);
       }
       else{}
