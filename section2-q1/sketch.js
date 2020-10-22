@@ -5,6 +5,5 @@ function setup(){
     noFill();
     stroke(0, 0, 255);
     ellipse(50, 50, 50);
-    strokeWeight( 1 );
   }
 }
