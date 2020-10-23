@@ -14,16 +14,12 @@ function setup() {
         if(j <= 2){
           fill('red')
           ellipse(size * (i + 0.5), size * (j + 0.5), size - 5)
-          
         }
         else if(j >= 5){
           fill('black')
           ellipse(size * (i + 0.5), size * (j + 0.5), size - 5)
-
         }
       }
-
-
   }
   }
 }
