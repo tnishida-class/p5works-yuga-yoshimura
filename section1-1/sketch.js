@@ -12,13 +12,14 @@ function setup() {
         rect(size * i, size * j, size, size);
         fill(120);
         if(j <= 2){
-          ellipse(size * (i + 0.5), size * (j + 0.5), size - 5)
-          color(255, 0, 0)
-        }
-        else if(j >= 5){
           fill('red')
           ellipse(size * (i + 0.5), size * (j + 0.5), size - 5)
-        
+          
+        }
+        else if(j >= 5){
+          fill('black')
+          ellipse(size * (i + 0.5), size * (j + 0.5), size - 5)
+
         }
       }
 
