@@ -12,7 +12,7 @@ function setup() {
         rect(size*i, size*j, size, size);
         fill(120);
         if(j < 3){
-          ellipse(size * (i - 0.5), size(j = 0.5), size)
+          ellipse(size * (i - 0.5), size(j = 0.5), 20)
           fill(255, 0, 0)
         }
         else if(j > 4){
