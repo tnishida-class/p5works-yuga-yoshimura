@@ -11,11 +11,11 @@ function setup() {
     if(k % 2 == 1){
         rect(size*i, size*j, size, size);
         fill(120);
-        if(j < 3){
+        if(j <= 2){
           ellipse(size * (i - 0.5), size * (j - 0.5), size)
           fill(255, 0, 0)
         }
-        else if(j > 4){
+        else if(j >= 5){
           ellipse(size * (i - 0.5), size * (j - 0.5), size)
           fill(65)
         }
