@@ -13,7 +13,9 @@ function setup() {
     if(i % 2 == 0){
       fill(blue)
     }
-    else{}
+    else{
+      fill('white')
+    }
 }
   fill(blue);
   let size = d * 5;
