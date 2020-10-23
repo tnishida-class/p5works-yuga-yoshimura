@@ -10,7 +10,7 @@ function setup() {
     let k = i + j
     if(k % 2 == 1){
         rect(size * i, size * j, size, size);
-        fill('gray');
+        fill('120');
         if(j <= 2){
           fill(120);
           ellipse(size * (i + 0.5), size * (j + 0.5), size - 5)
