@@ -13,13 +13,13 @@ function setup() {
         fill(120);
         if(j <= 2){
           ellipse(size * (i + 0.5), size * (j + 0.5), size - 5)
-          fill(255, 0, 0)
+          color(255, 0, 0)
         }
         else if(j >= 5){
           ellipse(size * (i + 0.5), size * (j + 0.5), size - 5)
-          fill(65)
+          color(65)
         }
-      
+
       }
 
 
