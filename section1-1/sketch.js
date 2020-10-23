@@ -7,12 +7,13 @@ function setup() {
     for(let j = 0; j < 8; j++){
       // BLANK[1] (hint: rectのx座標は size * i, y座標はsize * j)
     fill(196);
-    if(i % 2 == 1){
+    let k = i + j
+    if(k % 2 == 1){
         rect(size*i, size*j, size, size);
         fill(120);
       }
 
-      
+
   }
   }
 }
