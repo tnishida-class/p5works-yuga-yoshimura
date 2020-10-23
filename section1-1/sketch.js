@@ -16,7 +16,7 @@ function setup() {
           fill(255, 0, 0)
         }
         else if(j > 4){
-          ellipse(size * (i - 0.5), size * (j - 0.5), size)
+          ellipse(size * (i - 0.5), size * (j - 0.5), 20)
           fill(65)
         }
         else{}
