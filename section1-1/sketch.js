@@ -1,25 +1,16 @@
-// チェッカー
 function setup() {
-  createCanvas(200, 200);
-  let size = width / 8;
-  noStroke();
-  for(let i = 0; i < 8; i++){
-    for(let j = 0; j < 8; j++){
-      // BLANK[1] (hint: rectのx座標は size * i, y座標はsize * j)
-    fill('gray');
-    let k = i + j
-    if(k % 2 == 1){
-        rect(size * i, size * j, size, size);
-        fill(120);
-        if(j <= 2){
-          fill('red')
-          ellipse(size * (i + 0.5), size * (j + 0.5), size - 5)
-        }
-        else if(j >= 5){
-          fill('black')
-          ellipse(size * (i + 0.5), size * (j + 0.5), size - 5)
-        }
-      }
-  }
-  }
+  createCanvas(128,128);
+}
+
+function draw() {
+  background(0);
+  strokeWeight(4);
+  fill(178, 100, 162);
+  triangle(12,120,116,120,116,10);
+  fill(94, 185, 84);
+  triangle(0,108,106,108,106,0);
+  fill(255);
+  textSize(32);
+  textFont("serif");
+  text("46", 68, 100);
 }
