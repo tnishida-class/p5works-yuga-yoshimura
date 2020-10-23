@@ -18,4 +18,7 @@ function setup() {
 
   fill(255);
   // BLANK[2] (hint: 白い十字を描くには rect を二つ描こう)
+  if(i % 2 == 1){
+    fill(blue)
+  }
 }
