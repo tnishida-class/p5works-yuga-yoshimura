@@ -19,7 +19,7 @@ function setup() {
           ellipse(size * (i + 0.5), size * (j + 0.5), size - 5)
           fill(65)
         }
-        else{}
+      
       }
 
 
