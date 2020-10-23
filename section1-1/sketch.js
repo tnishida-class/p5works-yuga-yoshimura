@@ -16,10 +16,10 @@ function setup() {
           color(255, 0, 0)
         }
         else if(j >= 5){
+          fill('red')
           ellipse(size * (i + 0.5), size * (j + 0.5), size - 5)
-          color(65)
+        
         }
-
       }
 
 
