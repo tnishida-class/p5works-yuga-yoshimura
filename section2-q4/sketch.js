@@ -16,6 +16,7 @@ function setup() {
     }
     else{
       fill(255);
+      rect(0, i * d, width, (i + 1) * d)
     }
 }
   fill(blue)
