@@ -12,6 +12,7 @@ function setup() {
       rect(0, i * d, width, (i + 1) * d);
     if(i % 2 == 0){
       fill(blue)
+      rect(0, i * d, width, (i + 1) * d)
     }
 }
   fill(blue)
