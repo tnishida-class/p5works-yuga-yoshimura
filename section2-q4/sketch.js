@@ -11,7 +11,6 @@ function setup() {
     // BLANK[1] (hint: 縞の色を交互に変えるには2で割った余りを使おう)
     if(i % 2 == 0){
       rect(0, i * d, width, (i + 1) * d);
-      fill(blue)
     }
 }
   fill(blue)
