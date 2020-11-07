@@ -23,7 +23,8 @@ function setup() {
 
   fill(255);
   // BLANK[2] (hint: 白い十字を描くには rect を二つ描こう)
-  rect(0, i * 3, size, d)
-  rect(i * 3, 0, d, size)
-}
+  rect(0, d * 3, size, d)
+  rect(d * 3, 0, d, size)
+
+  }
 }
