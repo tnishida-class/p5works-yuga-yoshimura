@@ -14,13 +14,16 @@ function setup() {
       fill(blue);
     }
     else{
-      fill('white')
+      fill(255)
     }
-  }
+
+  fill(blue)
   let size = d * 5;
   rect(0, 0, size, size);
 
   fill(255);
   // BLANK[2] (hint: 白い十字を描くには rect を二つ描こう)
-
+  rect(0, i * 2, size, size)
+  rect(i * 2, 0, size, size)
+}
 }
