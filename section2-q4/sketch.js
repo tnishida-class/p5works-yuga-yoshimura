@@ -13,7 +13,9 @@ function setup() {
       fill(blue);
       rect(0, i * d, width, (i + 1) * d);
     }
-
+    else{
+      fill('white')
+    }
   fill(blue)
   let size = d * 5;
   rect(0, 0, size, size);
