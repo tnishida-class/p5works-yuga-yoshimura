@@ -9,9 +9,9 @@ function setup(){
 
 function star(cx, cy, r){
   for(let i = 0; i < 12; i++){
-    const theta = TWO_PI * i / 12; // TWO_PI は円周率πの2倍（ほかに PI, HALF_PI, QUARTER_PI　がある）
-    const x = 100 + cos(theta) * 50; // 関数 cos の戻り値を使用
-    const y = 100 + sin(theta) * 50; // 関数 sin の戻り値を使用
-    ellipse(x, y, 10); // 関数 ellipse の副作用で円が描画される
+    const theta = TWO_PI * i / 12;
+    const x = 100 + cos(theta) * 50;
+    const y = 100 + sin(theta) * 50;
+    ellipse(x, y, 10);
   }
 }
