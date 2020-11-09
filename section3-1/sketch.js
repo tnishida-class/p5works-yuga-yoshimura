@@ -12,5 +12,6 @@ function star(x, y, r){
     let theta = TWO_PI * i / 12;
     let x = 150 + cos(theta) * 50;
     let y = 100 + sin(theta) * 50;
+    vertex(x, y)
   }
 }
