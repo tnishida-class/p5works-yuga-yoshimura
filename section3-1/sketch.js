@@ -8,7 +8,7 @@ function setup(){
 }
 
 function star(x, y, r){
-  fill('yellow')
+  beginShape();
   for(let i = 0; i < 12; i++){
     let theta = TWO_PI * i / 12;
     let x = 150 + cos(theta) * 50;
