@@ -7,12 +7,12 @@ function setup(){
   star(150, 100, 50);
 }
 
-function star(x, y, r){
+function star(cx, cy, r){
   beginShape();
   for(let i = 0; i < 12; i++){
     let theta = TWO_PI * i / 12;
-    let x = 150 + cos(theta) * 50;
-    let y = 100 + sin(theta) * 50;
+    let x = cx + 150 + cos(theta) * 50;
+    let y = cy + 100 + sin(theta) * 50;
     vertex(x, y)
   }
   endShape();
