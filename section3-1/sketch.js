@@ -15,4 +15,5 @@ function star(x, y, r){
     let y = 100 + sin(theta) * 50;
     vertex(x, y)
   }
+  endShape();
 }
