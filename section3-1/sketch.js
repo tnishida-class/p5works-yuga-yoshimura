@@ -6,7 +6,7 @@ function setup(){
   for(let i = 0; i < 12; i++){
     let theta = TWO_PI * i / 12;
     let x = 150 + cos(theta) * 50;
-    let y = 150 + sin(theta) * 50;
+    let y = 100 + sin(theta) * 50;
     ellipse(x, y, 10);
   }
 }
