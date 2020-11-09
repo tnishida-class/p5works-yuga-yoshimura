@@ -7,13 +7,13 @@ function setup(){
   star(150, 100, 50);
 }
 
-function star(cx, cy, r){
-  beginShape();
+function setup(){
+  createCanvas(200, 200);
+  background(192);
   for(let i = 0; i < 12; i++){
-    let theta = TWO_PI * i / 12;
-    let x = cx + 150 + cos(theta) * 50;
-    let y = cy + 100 + sin(theta) * 50;
-    vertex(x, y)
+    const theta = TWO_PI * i / 12; // TWO_PI は円周率πの2倍（ほかに PI, HALF_PI, QUARTER_PI　がある）
+    const x = 100 + cos(theta) * 50; // 関数 cos の戻り値を使用
+    const y = 100 + sin(theta) * 50; // 関数 sin の戻り値を使用
+    ellipse(x, y, 10); // 関数 ellipse の副作用で円が描画される
   }
-  endShape();
 }
