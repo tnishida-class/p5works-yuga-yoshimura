@@ -7,6 +7,6 @@ function setup(){
     let theta = TWO_PI * i / 12;
     let x = 100 + cos(theta) * 50;
     let y = 100 + sin(theta) * 50;
-    ellipse(x, y, 10);
+    star(x, y, 10);
   }
 }
