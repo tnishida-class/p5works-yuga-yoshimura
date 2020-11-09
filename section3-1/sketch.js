@@ -3,7 +3,7 @@
 function setup(){
   createCanvas(300, 200);
   background('blue');
-  star(x, y, r)
+  star(150, 100, 50)
 }
 
 function star(x, y, r){
