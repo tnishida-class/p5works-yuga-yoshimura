@@ -4,6 +4,7 @@ function setup(){
   createCanvas(300, 200);
   background('blue');
   fill('yellow');
+  stroke('yellow')
   for(let i = 0; i < 12; i++){
     const thetaA = TWO_PI * i / 12;
     const xx = 150 + cos(thetaA) * 50;
