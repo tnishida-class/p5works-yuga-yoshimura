@@ -25,7 +25,7 @@ function ngmark(cx, cy, r){
 }
 
 function seinkakkei(cx, cy, r){
-  n = 4
+  n = 12
   beginShape();
   for(var i = 0; i < n; i++){
     let theta = TWO_PI * i / n;
