@@ -16,5 +16,5 @@ function star(cx, cy, r){
     const y = 100 + sin(theta) * 50;
     vertex(x, y);
   }
-  endshape();
+  endShape();
 }
