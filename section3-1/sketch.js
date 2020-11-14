@@ -6,7 +6,7 @@ function setup(){
   fill('yellow');
   for(let i = 0; i < 12; i++){
     const thetaA = TWO_PI * i / 12;
-    const xx = 100 + cos(thetaA) * 50;
+    const xx = 150 + cos(thetaA) * 50;
     const yy = 100 + sin(thetaA) * 50;
     star(xx, yy, 50);
   }
