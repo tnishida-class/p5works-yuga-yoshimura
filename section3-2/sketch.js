@@ -27,7 +27,7 @@ function ngmark(cx, cy, r){
 function seinkakkei(cx, cy, r){
   beginShape();
   for(var i = 0; i < n; i++){
-    n = 2
+    n = 4
     let theta = TWO_PI * i / n;
     let x = cx + cos(theta) * r;
     let y = cy + sin(theta) * r;
