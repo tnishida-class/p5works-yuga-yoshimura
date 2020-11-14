@@ -12,8 +12,8 @@ function star(cx, cy, r){
   beginShape();
   for(var i = 0; i < 12; i++){
     const theta = TWO_PI * i * 2 / 5 - HALF_PI;
-    const x = 100 + cos(theta) * 50;
-    const y = 100 + sin(theta) * 50;
+    const x = cx + cos(theta) * 50;
+    const y = cy + sin(theta) * 50;
     vertex(x, y);
   }
   endShape();
