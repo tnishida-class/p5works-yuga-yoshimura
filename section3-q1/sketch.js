@@ -4,7 +4,7 @@
 function setup(){
   createCanvas(400, 400);
   background(255);
-  balloon("こんにちわっしょい");
+  balloon("こんにちわっしょい!!");
 }
 
 function balloon(t){
