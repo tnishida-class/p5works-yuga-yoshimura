@@ -7,7 +7,7 @@ function setup(){
   crossmark(10, 10, 90, 90);
   ngmark(150, 50, 80);
   seinkakkei(250, 50, 40);
-  balloon(?);
+  balloon();
 }
 
 function crossmark(x1, y1, x2, y2){
