@@ -9,7 +9,7 @@ function setup(){
 
 function star(cx, cy, r){
   push();
-  beginshape();
+  beginShape();
   for(var i = 0; i < 12; i++){
     const theta = TWO_PI * i * 2 / 5 - HALF_PI;
     const x = 100 + cos(theta) * 50;
