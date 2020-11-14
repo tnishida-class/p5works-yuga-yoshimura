@@ -4,7 +4,7 @@
 function setup(){
   createCanvas(400, 400);
   background(255);
-  balloon("I love keyakizaka46");
+  balloon("わっしょい");
 }
 
 function balloon(t){
