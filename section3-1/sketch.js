@@ -9,6 +9,7 @@ function setup(){
     const xx = 100 + cos(thetaA) * 50;
     const yy = 100 + sin(thetaA) * 50;
     star(xx, yy, 50);
+  }
 }
 
 function star(cx, cy, r){
