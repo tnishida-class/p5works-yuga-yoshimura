@@ -13,7 +13,6 @@ function balloon(t){
   let p = 30;
   fill(255, 0, 255);
   rect(p - 5, h * 1.5 + 5, w + 10, h * 1.5, 20, 20, 20, 0);
-
   fill(255);
   text(t, p, h + p);
 }
