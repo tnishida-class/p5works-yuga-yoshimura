@@ -7,8 +7,8 @@ function setup(){
   stroke('yellow')
   for(let i = 0; i < 12; i++){
     const thetaA = TWO_PI * i / 12;
-    const xx = 150 + cos(thetaA) * 50;
-    const yy = 100 + sin(thetaA) * 50;
+    const xx = 150 + cos(thetaA) * 100 / 3;
+    const yy = 100 + sin(thetaA) * 100 / 3;
     star(xx, yy, 50);
   }
 }
