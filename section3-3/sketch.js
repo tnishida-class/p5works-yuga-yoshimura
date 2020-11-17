@@ -18,6 +18,12 @@ function calendar(y, m){
   let dow = dayOfWeek(y, m, 1);
   for(let d = 1; d <= daysInMonth(y, m); d++){
     // BLANK[3] (hint: まずは daysInYear, dayOfWeek を作ろう)
+    if(daysInYear(i)){
+      console.log("366日です");
+    }
+    else{
+      console.log("365日です")
+    }
   }
 }
 
