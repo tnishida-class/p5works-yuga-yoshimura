@@ -26,7 +26,7 @@ function isLeapYear(y){
 }
 
 function daysInYear(y){
-  return (isLealpYear(y) ? 366 : 365);
+  return (isLeapYear(y) ? 366 : 365);
 }
 
 function daysInMonth(y, m){
