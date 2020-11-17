@@ -11,12 +11,6 @@ function setup(){
     else{
       console.log(i + "年はうるう年ではありません");
     }
-    if(daysInYear(i)){
-      console.log("366日です");
-    }
-    else{
-      console.log("365日です")
-    }
   }
 }
 
