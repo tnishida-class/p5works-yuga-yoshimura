@@ -18,6 +18,7 @@ function calendar(y, m){
   let dow = dayOfWeek(y, m, 1);
   for(let d = 1; d <= daysInMonth(y, m); d++){
     // BLANK[3] (hint: まずは daysInYear, dayOfWeek を作ろう)
+  for(let i = 2000; i <= 2100; i++){
     if(daysInYear(i)){
       console.log("366日です");
     }
@@ -25,6 +26,7 @@ function calendar(y, m){
       console.log("365日です")
     }
   }
+}
 }
 
 function isLeapYear(y){
