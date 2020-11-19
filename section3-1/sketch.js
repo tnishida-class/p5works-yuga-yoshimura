@@ -1,12 +1,27 @@
 // テキスト「関数を使う」
 // 練習問題：このプログラムを改造してEUの旗を描いてみよう
 function setup(){
-  createCanvas(200, 200);
-  background(192);
+  createCanvas(300, 200);
+  background('blue');
+  fill('yellow');
+  stroke('yellow')
   for(let i = 0; i < 12; i++){
-    let theta = TWO_PI * i / 12;
-    let x = 100 + cos(theta) * 50;
-    let y = 100 + sin(theta) * 50;
-    ellipse(x, y, 10);
+    const thetaA = TWO_PI * i / 12;
+    const xx = 150 + cos(thetaA) * 60;
+    const yy = 100 + sin(thetaA) * 60;
+    star(xx, yy, 50);
   }
+}
+
+function star(cx, cy, r){
+  push();
+  beginShape();
+  for(var i = 0; i < 12; i++){
+    const theta = TWO_PI * i * 2 / 5 - HALF_PI;
+    const x = cx + cos(theta) * 10;
+    const y = cy + sin(theta) * 10;
+    vertex(x, y);
+  }
+  endShape();
+  pop();
 }
