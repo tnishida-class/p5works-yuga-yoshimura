@@ -18,7 +18,7 @@ function draw(){
   y += vy;
 
   // 重力（コメント機能でオンオフ切り替えて実行してみましょう）
-  //vy = constrain(vy + g, -vyMax, vyMax);
+  vy = constrain(vy + g, -vyMax, vyMax);
 
   // 端の処理パターン (1) 反対側から出てくる
   // if(x > width){ x = 0; }
