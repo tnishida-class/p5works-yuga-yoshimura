@@ -10,7 +10,7 @@ function setup(){
 
 function draw(){
   background(160, 192, 255);
-  count = (50 + 1) % cycle;
+  count = (count + 1);
 
   ellipse(width / 2, height / 2, count);
 }
