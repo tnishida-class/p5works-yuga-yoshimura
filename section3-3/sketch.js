@@ -51,6 +51,7 @@ function dayOfYear(y, m, d){
 
 function dayOfWeek(y, m, d){
   // BLANK[2]
+  
 }
 
 function dayOfWeekAsString(dow){
