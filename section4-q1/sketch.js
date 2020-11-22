@@ -11,6 +11,9 @@ function setup(){
 function draw(){
   background(160, 192, 255);
   count = (count + 1);
+  if(count + 1 > cycle){
+    count = count - 1}
+  
   let size = constrain(count, 0, cycle);
   ellipse(width / 2, height / 2, size);
 }
