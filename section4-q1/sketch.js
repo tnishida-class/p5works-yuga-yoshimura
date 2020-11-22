@@ -4,7 +4,7 @@ let cycle;
 
 function setup(){
   createCanvas(200, 200);
-  count = 50;
+  count = 0;
   cycle = 100;
   size = 30;
 }
