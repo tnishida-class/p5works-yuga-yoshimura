@@ -26,7 +26,6 @@ function draw(){
   else if(x < 0){ x = width; }
   if(y > height){ y = 0; }
   if(y < 0){ y = height; }
-  mousePressed(mouseX, mouseY)
 }
 
 function star(cx, cy, r, angle){
