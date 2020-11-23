@@ -42,6 +42,10 @@ function mousePressed(){
   else{x = x ; y = y}
 }
 
+function keyPressed(){
+  if(key == " "){reset();}
+}
+
 function windowResized(){
   resizeCanvas(windowWidth, windowHeight);
 }
