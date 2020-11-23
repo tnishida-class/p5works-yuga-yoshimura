@@ -15,7 +15,7 @@ function draw(){
   background(160, 192, 255);
   count = (count + 1) % cycle;
   ellipse(width / 2, height / 2, size);
-  if(count <= 50){size += vx}
+  if(count <= 50){size += vx % 30}
   else{size -= vx};
   if(keyIsPressed){vx = 2}
   else{vx == 1}
