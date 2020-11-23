@@ -39,6 +39,9 @@ function star(cx, cy, r, angle){
   }
   endShape(CLOSE);
 }
+function mousePressed(){
+  if(mousePressed){x == mouseX ; y == mouseY}
+}
 
 function windowResized(){
   resizeCanvas(windowWidth, windowHeight);
