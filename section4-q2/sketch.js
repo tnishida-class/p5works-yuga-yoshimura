@@ -15,9 +15,12 @@ function draw(){
   // BLANK[2] (hint: 作った star 関数を使います)
   star(x, y, 50, angle);
   angle += 10;
-  x += vx
-  if(keyIsDown(LEFT_ARROW)){vx = vx + 5}
-  if(keyIsDown(RIGHT_ARROW)){vx = vx - 5}
+  x += vx;
+  y += vy;
+  if(keyIsDown(LEFT_ARROW)){vx = vx + 5};
+  if(keyIsDown(RIGHT_ARROW)){vx = vx - 5};
+  if(keyIsDown(UP_ARROW)){vy = vy + 5};
+  if(keyIsDown(DOWN_ARROW)){vy = vy - 5};
   // 端の処理パターン (1) 反対側から出てくる
   if(x > width){ x = 0; }
   else if(x < 0){ x = width; }
