@@ -17,5 +17,4 @@ function draw(){
   ellipse(width / 2, height / 2, size);
   if(count <= 50){size += vx}
   else{size -= vx};
-  if(keyIsDown){vx = vx * 2}
 }
