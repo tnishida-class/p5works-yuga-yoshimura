@@ -43,6 +43,7 @@ function star(cx, cy, r, angle){
 
 function mousePressed(){
   if(mousePressed){x = mouseX ; y = mouseY}
+  else{x = x ; y = y}
 }
 
 function windowResized(){
