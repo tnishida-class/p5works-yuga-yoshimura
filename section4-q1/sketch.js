@@ -16,5 +16,5 @@ function draw(){
   ellipse(width / 2, height / 2, size);
   if(count <= 50){size += vx}
   else{size -= vx};
-  if(keyIsPressed){vx = vx * 1.5}
+  if(keyIsDown){vx = vx + 1.5}
 }
