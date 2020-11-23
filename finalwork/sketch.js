@@ -3,10 +3,6 @@ let x, y, vx, vy;
 
 function setup(){
   createCanvas(windowWidth, windowHeight);
-  reset();
-}
-
-function reset(){
   x = width / 2;
   y = height / 2;
   vx = 8;
@@ -47,7 +43,7 @@ function mousePressed(){
 }
 
 function keyPressed(){
-  if(key == " "){reset();}
+  if(key == " "){}
 }
 
 function windowResized(){
