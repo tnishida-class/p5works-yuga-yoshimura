@@ -7,6 +7,7 @@ function setup(){
   count = 0;
   cycle = 100;
   size = 30;
+  30 < size < 50;
   vx = 1
 }
 
