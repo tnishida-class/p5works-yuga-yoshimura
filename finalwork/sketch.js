@@ -16,10 +16,10 @@ function draw(){
   angle += 10;
   x += vx;
   y += vy;
-  if(keyIsDown(LEFT_ARROW)){vx = vx + 1};
-  if(keyIsDown(RIGHT_ARROW)){vx = vx - 1};
-  if(keyIsDown(UP_ARROW)){vy = vy + 1};
-  if(keyIsDown(DOWN_ARROW)){vy = vy - 1};
+  if(keyIsDown(LEFT_ARROW)){vx = vx - 1};
+  if(keyIsDown(RIGHT_ARROW)){vx = vx + 1};
+  if(keyIsDown(UP_ARROW)){vy = vy - 1};
+  if(keyIsDown(DOWN_ARROW)){vy = vy + 1};
   if(x > width){ x = 0; }
   else if(x < 0){ x = width; }
   if(y > height){ y = 0; }
