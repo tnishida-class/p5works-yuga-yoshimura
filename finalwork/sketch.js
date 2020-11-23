@@ -1,5 +1,5 @@
 // 最終課題を制作しよう
-let x, y, vx, vy;
+let x, y, vx, vy, angle, z;
 
 function setup(){
   createCanvas(windowWidth, windowHeight);
@@ -8,12 +8,13 @@ function setup(){
   vx = 8;
   vy = 8;
   angle = 0;
+  z = 0
 }
 
 function draw(){
   background(160, 192, 255);
   star(x, y, 50, angle);
-  angle += 10;
+  angle += 10 + z;
   x += vx;
   y += vy;
   if(keyIsDown(LEFT_ARROW)){vx = vx - 1};
@@ -43,7 +44,8 @@ function mousePressed(){
 }
 
 function keyPressed(){
-  if(key == " "){}
+  if(key == " "){z += 1}
+  if(z == 10){z == 0}
 }
 
 function windowResized(){
