@@ -7,6 +7,7 @@ function setup(){
   count = 0;
   cycle = 100;
   size = 30;
+  vx = 1
 }
 
 function draw(){
