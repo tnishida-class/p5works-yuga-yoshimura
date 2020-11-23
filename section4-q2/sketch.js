@@ -14,7 +14,7 @@ function draw(){
   background(160, 192, 255);
   // BLANK[2] (hint: 作った star 関数を使います)
   star(x, y, 50, angle);
-  angle += 1;
+  angle += 10;
   x ++;
   // 端の処理パターン (1) 反対側から出てくる
   if(x > width){ x = 0; }
