@@ -17,5 +17,5 @@ function draw(){
   if(count <= 50){size += vx}
   else{size -= vx};
   if(keyIsPressed){vx = vx + 2}
-  else{vx = vx}
+  else{vx == 1}
 }
