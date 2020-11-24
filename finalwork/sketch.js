@@ -11,8 +11,10 @@ function setup(){
   z = 0
 }
 
-function changecolor(){
-  if(keyIsDown("r".charCodeAt(0))){fill("red")}
+function keyPressed(){
+  if(key == "r"){fill("red");}
+  else if(key == "y"){fill("yellow");}
+  else if(key == "p"){fill("purple");}
 }
 
 function draw(){
