@@ -17,6 +17,7 @@ function changecolor(){
 
 function draw(){
   background(160, 192, 255);
+  changecolor();
   star(x, y, 50, angle);
   angle += 10 + z;
   x += vx;
