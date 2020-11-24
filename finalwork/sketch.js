@@ -11,6 +11,10 @@ function setup(){
   z = 0
 }
 
+function changecolor(){
+  if(keyIsDown("r".charCodeAt(0))){fill("red")}
+}
+
 function draw(){
   background(160, 192, 255);
   star(x, y, 50, angle);
