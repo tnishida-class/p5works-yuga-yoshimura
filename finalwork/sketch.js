@@ -16,6 +16,9 @@ function draw(){
   if(key == "r"){fill("red");}
   else if(key == "y"){fill("yellow");}
   else if(key == "p"){fill("purple");}
+  else if(key == "g"){fill("green");}
+  else if(key == "b"){fill("blue");}
+  else if(key == "n"){fill("navy");}
   star(x, y, 50, angle);
   angle += 10 + z;
   x += vx;
