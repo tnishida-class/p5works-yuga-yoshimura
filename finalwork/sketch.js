@@ -13,7 +13,7 @@ function setup(){
 
 function draw(){
   background(160, 192, 255);
-  textsize(width / 20)
+  textSize(width / 20)
   text("shooting star", windowWidth / 2, windowHeight / 10 * 7)
   if(key == "r"){fill("red");}
   else if(key == "y"){fill("yellow");}
