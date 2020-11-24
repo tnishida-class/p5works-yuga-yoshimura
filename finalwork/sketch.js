@@ -11,14 +11,11 @@ function setup(){
   z = 0
 }
 
-function keyPressed(){
+function draw(){
+  background(160, 192, 255);
   if(key == "r"){fill("red");}
   else if(key == "y"){fill("yellow");}
   else if(key == "p"){fill("purple");}
-}
-
-function draw(){
-  background(160, 192, 255);
   star(x, y, 50, angle);
   angle += 10 + z;
   x += vx;
